@@ -8,9 +8,11 @@ Since the p-value of ground clearance is less than 0.05, we can say that it does
 
 Since the p-value is 0.1991, we would fail to reject the null hypothesis of the slope being equal to 0. Hence, we would say that the slope is considered to be 0. Likewise, since our r<sup>2</sup> value is 0.1223, this would say that only 12% of the predictions can be explained by using this linear model. Therefore, this linear module doesn't accurately predct mpg of MechaCar prototypes effectively. 
 
-#D2
+## Summary Statistics on Suspension Coils
 
-dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using your knowledge of R, you’ll create a summary statistics table to show:
+In this dataset, the weight capacities of multiple suspension coils were tested. Looking at the table below, we can see the data statistics of the suspension coil’s PSI continuous variable across all manufacturing lots.
+ <br> <img src="https://github.com/TeresaHartman/MechaCar_Statistical_Analysis/blob/main/Analysis/total_summary.PNG" width="375" /> <br>
 
-The suspension coil’s PSI continuous variable across all manufacturing lots
-The following PSI metrics for each lot: mean, median, variance, and standard deviation.
+Looking at the table below, we can see the data statistics of the suspension coil’s PSI metrics for each lot, to determine if the manufacturing process is consistent across production lots. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Manufacturing Lot1 and Lot 2 are well within this calculation. However, the variance of Lot3 is well above the 100 pounds per square inch requirement since it is at 170.3 pounds per square inch.  
+ <br> <img src="https://github.com/TeresaHartman/MechaCar_Statistical_Analysis/blob/main/Analysis/lot_summary.PNG" width="550" /> <br>
+
