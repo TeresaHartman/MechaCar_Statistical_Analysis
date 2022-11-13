@@ -33,3 +33,6 @@ Lot 3:
 <br> <img src="https://github.com/TeresaHartman/MechaCar_Statistical_Analysis/blob/main/Analysis/tTest_Lot3.PNG" width="400" /> <br>
 
 ## Study Design: MechaCar vs Competition
+To compare MechaCar vehicles against performance of vehicles from other manufacturers, several tests can be run. You can run several pair t-test against each individual metric. I suggest starting with the miles per gallon since data is already collected for that on MechaCar. However, many other pair t-tests can be run over several metrics including safety ratings, maintenance costs, and fuel efficiency- both city and highway. The null hypothesis, H0, would be the The difference between our paired observations is equal to zero, and the alternative hypothesis, Ha, would be he difference between our paired observations is not equal to zero. 
+
+To tests all factors at once comparing MechaCar vehicles and other vehicles, then the best test would be the ANOVA test as is used to compare the means of variables across a number of metrics. The null hypothesis would be, H0 : The means of all groups are equal, or µ1 = µ2 = … = µn. While the alternative hypothesis would be, Ha : At least one of the means is different from all other groups.
