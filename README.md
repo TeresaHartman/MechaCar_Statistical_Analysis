@@ -31,3 +31,5 @@ Lot 2:
 <br> <img src="https://github.com/TeresaHartman/MechaCar_Statistical_Analysis/blob/main/Analysis/tTest_Lot2.PNG" width="400" /> <br>
 Lot 3: 
 <br> <img src="https://github.com/TeresaHartman/MechaCar_Statistical_Analysis/blob/main/Analysis/tTest_Lot3.PNG" width="400" /> <br>
+
+## Study Design: MechaCar vs Competition
