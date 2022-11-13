@@ -16,3 +16,18 @@ In this dataset, the weight capacities of multiple suspension coils were tested.
 Looking at the table below, we can see the data statistics of the suspension coil’s PSI metrics for each lot, to determine if the manufacturing process is consistent across production lots. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Manufacturing Lot1 and Lot 2 are well within this calculation. However, the variance of Lot3 is well above the 100 pounds per square inch requirement since it is at 170.3 pounds per square inch.  
  <br> <img src="https://github.com/TeresaHartman/MechaCar_Statistical_Analysis/blob/main/Analysis/lot_summary.PNG" width="550" /> <br>
 
+## T-Tests on Suspension Coils
+
+In the following we ran a t-test determine if the suspension coil’s PSI statistically different from the population mean of 1,500 pounds per square inch. The null hypothesis is H0: mu = 1500, along with the two-sided alternative hypothesis Ha: mu != 1500. 
+
+When the t-test was ran across all manufacturing lots, the result was p = 0.0628. This is not statisticially at the 0.05 level stating that we would accept the null hyptohesis stating that the PSI is equal to 1500. 
+<br> <img src="https://github.com/TeresaHartman/MechaCar_Statistical_Analysis/blob/main/Analysis/tTest_allLots.PNG" width="400" /> <br>
+
+When the t-test was ran across each individual lot, the results varied. In Lot 1, and Lot 2, the t-test determined that the PSI of those lots are equal to the population average of 1500. However, Lot 3's PSI is not equal to 1500. 
+
+Lot 1: 
+<br> <img src="https://github.com/TeresaHartman/MechaCar_Statistical_Analysis/blob/main/Analysis/tTest_Lot1.PNG" width="400" /> <br>
+Lot 2: 
+<br> <img src="https://github.com/TeresaHartman/MechaCar_Statistical_Analysis/blob/main/Analysis/tTest_Lot2.PNG" width="400" /> <br>
+Lot 3: 
+<br> <img src="https://github.com/TeresaHartman/MechaCar_Statistical_Analysis/blob/main/Analysis/tTest_Lot3.PNG" width="400" /> <br>
